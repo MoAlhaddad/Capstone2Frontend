@@ -11,7 +11,7 @@ import axios from 'axios';
 import 'antd/dist/antd.css';
 
 axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://capstonejob.herokuapp.com/',
 });
 
 function App() {
